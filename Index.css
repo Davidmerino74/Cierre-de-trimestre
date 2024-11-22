@@ -1,0 +1,91 @@
+body{
+    background-image: url(imagenes/espacio.jpg);    
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat; 
+    color:white;   
+}
+.contenedor div{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;    
+    flex-direction: column;  
+      
+
+}
+
+.foto img{
+    width: 40%;
+    
+}
+.navegacion {
+    display: flex;
+    justify-content: center;
+    
+
+}
+.navegacion ul{
+    display: flex;
+    list-style: none;
+   
+}
+.navegacion a {
+    color:orange;
+    font-size: 1.5em;
+    padding: 3em;
+    text-decoration: none;
+}
+.navegacion a:hover {
+    color:yellow;   
+    text-decoration: none;
+}
+.presentacion{
+    width: 70%;
+}
+.mail a{
+   
+    color: orange;
+   
+}
+.datos ul{
+    text-align: left;
+    margin-left: 12%;
+    
+}
+/* Estilo Experiencia*/
+
+.trabajo{
+    border: 2px solid orange;
+    padding: 1em;
+    margin-top: 2%;
+    border-radius: 2em;
+    width: 45%;
+}
+.contenedorex div.trabajo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+.contenedorex h2{
+    text-align: center;
+    color: yellow;
+    background-color:blue;
+    border-radius: 0.5em;
+}
+/*estilo memes*/
+div.cajonmemes img{
+    width: 35%;    
+    padding: 1em;
+    
+    
+    
+}
+.cajonmemes img{
+    display: flex;
+    flex-direction: column;    
+    margin: 0   auto;
+       
+}
